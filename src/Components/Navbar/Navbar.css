@@ -1,0 +1,15 @@
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 36px;
+    background-color: #F55A5A;
+    color: white;
+}
+
+.nav--logo {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}

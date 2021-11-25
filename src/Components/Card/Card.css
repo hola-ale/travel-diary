@@ -1,0 +1,51 @@
+.card {
+    border-bottom: solid 0.5px;
+    border-color: #E5E5E5;
+    padding: 20px 10px 50px 10px;
+    margin: 30px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px
+}
+
+.card--photo {
+    max-width: 400px;
+    border-radius: 9px;
+    flex-grow: 0;
+}
+
+.card--info {
+    margin-right: 20px;
+    margin-top: 20px;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card--info--location {
+    display: flex;
+    gap: 10px;
+}
+
+.card--info--location > img {
+    height: 15px;
+    color: #F55A5A;
+}
+
+.card--info--location > a {
+    color: #918E9B;
+}
+
+.card--info > h1 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.card--info > p {
+    padding: 5px 0;
+    line-height: 1.8;
+}
